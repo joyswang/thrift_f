@@ -1,0 +1,1 @@
+ls -l thrift_tem/*thrift | awk '{print $9}' | xargs -i thrift --gen java {}
